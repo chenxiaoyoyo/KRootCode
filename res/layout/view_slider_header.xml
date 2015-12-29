@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/slider_header" android:background="@color/general_light_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="42.69998dip" android:baselineAligned="false">
+        <RelativeLayout android:id="@id/tag_first" android:layout_width="0.0dip" android:layout_height="42.69998dip" android:layout_weight="1.0">
+            <TextView android:textColor="@color/template_title_bg" android:gravity="center" android:id="@id/tab_text_first" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/slider_header_title_style" />
+            <View android:id="@id/tab_line_first" android:layout_width="fill_parent" style="@style/slider_header_title_line_style" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/tag_second" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:gravity="center" android:id="@id/tab_text_second" android:layout_width="fill_parent" android:layout_height="42.69998dip" style="@style/slider_header_title_style" />
+            <View android:id="@id/tab_line_second" android:visibility="gone" android:layout_width="wrap_content" style="@style/slider_header_title_line_style" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/tag_third" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:gravity="center" android:id="@id/tab_text_third" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/slider_header_title_style" />
+            <View android:id="@id/tab_line_third" android:visibility="gone" android:layout_width="wrap_content" style="@style/slider_header_title_line_style" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:background="@color/common_divider" android:layout_width="fill_parent" android:layout_height="@dimen/common_divider_width" />
+</LinearLayout>

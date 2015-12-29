@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="background_on" format="reference|color" />
+    <attr name="background_off" format="reference|color" />
+    <attr name="thumb" format="reference|color" />
+    <attr name="text_on" format="string" />
+    <attr name="text_off" format="string" />
+    <attr name="text_on_color" format="color" />
+    <attr name="text_off_color" format="color" />
+    <attr name="bound_color" format="color" />
+    <attr name="angle" format="dimension" />
+    <attr name="button_text" format="string" />
+</resources>

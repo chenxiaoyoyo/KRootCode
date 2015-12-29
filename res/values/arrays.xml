@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_string_timeout_tip">
+        <item>10 Seconds</item>
+        <item>20 Seconds</item>
+        <item>30 Seconds</item>
+    </string-array>
+    <integer-array name="array_string_timeout">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </integer-array>
+    <string-array name="array_string_log_num_limit_tip">
+        <item>200 Records</item>
+        <item>300 Records</item>
+        <item>500 Records</item>
+    </string-array>
+    <integer-array name="array_string_log_num_limit">
+        <item>200</item>
+        <item>300</item>
+        <item>500</item>
+    </integer-array>
+    <string-array name="array_string_timeout_response">
+        <item>Deny</item>
+        <item>Allow</item>
+    </string-array>
+    <string-array name="array_string_log_time_limit">
+        <item>One Day</item>
+        <item>One Week</item>
+        <item>One Month</item>
+    </string-array>
+    <string-array name="array_string_software_uninstall_tab">
+        <item>@string/uninstall_tab_pre_install_software</item>
+        <item>@string/uninstall_tab_personal_software</item>
+        <item>@string/uninstall_tab_system_software</item>
+    </string-array>
+    <string-array name="array_string_question_and_answer">
+        <item>What is Root?</item>
+        <item>Root is having the privileged control of mobile phone system, after rooting your android device, you can conduct a comprehensive management and optimization on your phone such as removing pre-installed system apps, disabling startup apps and replacing the system font, etc.</item>
+        <item>Why is important to manage Root permission?</item>
+        <item>After getting root permission, app can access to all device and system functions which may put your phone at risk. Authorization management can effectively monitor app behavior and manage Root permissions. It help prevent the abuse of highest privileges and keep your phone safe from vulnerabilities. We recommend to deny root apply from unknown apps, you also can view record of root authorization through log function.</item>
+        <item>How to remove KingRoot and un-root?</item>
+        <item>"In order to keep root access and manage it, KingRoot will be a part of your device's firmware, and can not be Uninstall by ordinary way. You can go to Root authorization setting page to remove root thoroughly, KingRoot will be removed automatically and your device will return to no-root status after removing. If remove failed, please try to get or repair root environment and try again.&lt;br>&lt;strong>After uninstalling, you have no access to the advanced functions such as removing pre-installed system apps and disabling startup apps etc. Please choose cautiously.&lt;/strong>"</item>
+        <item>Does rooting void your warranty?</item>
+        <item>"After un-root operation be done to remove the root (Settings-Root authorization setting-Remove Root permission). Most of the manufacturers will still provide warranty service, but some of the manufacturers may void its warranty. Please consult your device's manufacturer for details."</item>
+        <item>How to remove the apps pre-installed?</item>
+        <item>The phone usually pre-installed many apps in the very beginning which resulting in high consumption of system resources. After obtaining Root permission you can uninstall those app, free up storage space and keep your phone clean and fast.</item>
+        <item>Why is important to disable auto startup apps?</item>
+        <item>"Apps startup in the background is the main reason that causing your phone running slow, running out of battery easily, become too hot to hold and using up data easily etc. After obtaining Root permission you can disable apps auto-startup, increase the phone's standby time and run your phone more efficiently through auto-start manage."</item>
+        <item>What is purify system?</item>
+        <item>Enable this mode will make your device running like a champ, it can auto-recycle useless apps which keep running in background and make them never auto-start, archive all notifications together and let your notification bar have a new look.</item>
+    </string-array>
+</resources>

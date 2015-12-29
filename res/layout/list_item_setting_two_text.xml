@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" style="@style/list_item_single_line_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/setting_list_item_common_text_size" android:textColor="@color/text_primary_color" android:id="@id/left_textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_title" />
+        <TextView android:textSize="@dimen/setting_list_item_common_secondary_text_size" android:textColor="@color/text_secondary_color" android:id="@id/left_textView_descr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_title" />
+    </LinearLayout>
+    <View android:id="@id/new_tag" android:background="@drawable/icon_new" android:visibility="gone" android:layout_width="@dimen/new_tag_width" android:layout_height="@dimen/new_tag_height" android:layout_marginLeft="6.0dip" android:contentDescription="@string/attribute_content_description_image" />
+    <TextView android:textSize="@dimen/setting_list_item_common_text_size" android:textColor="@color/list_item_common_right_text" android:gravity="right" android:id="@id/right_textView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/setting_title" android:layout_weight="1.0" />
+    <ImageView android:id="@id/expand_icon" android:background="@drawable/arrow_right" android:layout_width="@dimen/setting_list_item_right_arrow_width" android:layout_height="@dimen/setting_list_item_right_arrow_height" android:layout_marginLeft="10.0dip" android:contentDescription="@string/attribute_content_description_image" />
+</LinearLayout>

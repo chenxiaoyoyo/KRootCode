@@ -1,0 +1,15 @@
+version: 2.0.1
+apkFileName: NewKingrootV4.50_C120_B220_office_release_2015_07_21_nokm_105003.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '8'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '120'
+  versionName: 4.5.0
+compressionType: false
+sharedLibrary: false

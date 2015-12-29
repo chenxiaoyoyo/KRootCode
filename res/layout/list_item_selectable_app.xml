@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/top_layout" android:descendantFocusability="blocksDescendants" style="@style/list_item_two_lines_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/item_icon" android:contentDescription="@string/attribute_content_description_image" style="@style/list_item_icon_style" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_padding" android:layout_marginRight="@dimen/common_padding" android:layout_weight="1.0">
+        <TextView android:id="@id/item_title" style="@style/list_item_primary_title_style" />
+        <TextView android:id="@id/item_describe" style="@style/list_item_secondary_title_style" />
+    </LinearLayout>
+    <CheckBox android:id="@id/item_checkbox" android:layout_width="wrap_content" android:layout_height="fill_parent" android:button="@drawable/selector_checkbox" />
+    <TextView android:textSize="@dimen/text_text_thirdly_size" android:textColor="@color/red" android:id="@id/unremovable_tag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/uninstall_unremovable" android:singleLine="true" />
+</LinearLayout>

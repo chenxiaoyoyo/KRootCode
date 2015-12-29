@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_string_timeout_tip">
+        <item>10秒</item>
+        <item>20秒</item>
+        <item>30秒</item>
+    </string-array>
+    <integer-array name="array_string_timeout">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </integer-array>
+    <string-array name="array_string_log_num_limit_tip">
+        <item>200条</item>
+        <item>300条</item>
+        <item>500条</item>
+    </string-array>
+    <integer-array name="array_string_log_num_limit">
+        <item>200</item>
+        <item>300</item>
+        <item>500</item>
+    </integer-array>
+    <string-array name="array_string_timeout_response">
+        <item>拒绝</item>
+        <item>允许</item>
+    </string-array>
+    <string-array name="array_string_log_time_limit">
+        <item>一天</item>
+        <item>一周</item>
+        <item>一个月</item>
+    </string-array>
+    <string-array name="array_string_software_uninstall_tab">
+        <item>@string/uninstall_tab_pre_install_software</item>
+        <item>@string/uninstall_tab_personal_software</item>
+        <item>@string/uninstall_tab_system_software</item>
+    </string-array>
+    <string-array name="array_string_question_and_answer">
+        <item>什么是Root？</item>
+        <item>Root是手机的最高权限，获取Root权限成功后就可以全面管理和优化手机，如删除手机的预装软件，禁止软件自启，更换系统字体等等。</item>
+        <item>为什么要管理Root授权？</item>
+        <item>手机获取Root权限后，通过Root授权功能全面管理其他软件的Root权限申请，防止最高权限被滥用。建议禁止未知软件的Root权限申请，您可以通过日志功能，查看软件的Root授权记录。</item>
+        <item>如何清除Root和卸载KingRoot？</item>
+        <item>为了加强Root的稳定性和高可靠性，更好管理Root授权，KingRoot会被自动注册为系统组件，无法通过普通方式卸载。您可以通过“设置-Root授权设置”中的彻底清除Root权限功能清除Root和卸载KingRoot。若彻底清除Root权限失败，建议您重新获取或修复Root后再做清除操作。&lt;br>&lt;strong>彻底清除Root权限后手机恢复到无Root状态，将无法继续使用高权限相关功能，如禁止软件自启，删除预装软件，优化系统等，请谨慎操作。&lt;/strong></item>
+        <item>手机Root后还能保修吗？</item>
+        <item>在“设置-Root授权设置”中关闭“备份Root权限”后再彻底清除Root权限，成功清除Root权限后，在保修期内可以继续享受手机厂商的保修服务。但有少数品牌的厂商对Root的检查条件比较苛刻，清除Root可能无法再享受保修服务，具体情况要根据厂商的政策而定。</item>
+        <item>如何删除预装软件？</item>
+        <item>手机出厂时会预装许多无法删除的软件，占用系统资源，消耗流量。获取了Root权限后可以卸载无用系统预装软件，释放手机存储空间，降低内存消耗，节省流量。</item>
+        <item>为什么要禁止软件自启？</item>
+        <item>很多软件安装后会偷偷在后台自启，消耗内存资源，导致手机卡慢。通过自启管理功能可以关闭软件的自启行为，提高系统运行速度。</item>
+        <item>系统净化有什么用？</item>
+        <item>智能拦截骚扰通知，自动禁止后台软件自启，一键清理驻留内存，完美解决电池耗电、发热、卡顿的三大难题，加速手机更彻底。</item>
+    </string-array>
+</resources>

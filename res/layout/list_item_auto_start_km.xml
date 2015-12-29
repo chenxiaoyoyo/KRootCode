@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" style="@style/list_item_single_line_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.5sp" android:id="@id/date_desc" android:layout_width="0.0dip" android:text="@string/auto_start_km" android:layout_weight="1.0" style="@style/text_primary_style" />
+    <RelativeLayout android:layout_width="40.0dip" android:layout_height="40.0dip">
+        <ImageView android:id="@id/expand_icon" android:background="@drawable/icon_km" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/new_icon" android:layout_width="10.0dip" android:layout_height="10.0dip" android:src="@drawable/icon_new_dot" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" style="@style/list_item_two_lines_style"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:switcher="http://schemas.android.com/apk/res/com.kingroot.kinguser">
+    <ImageView android:id="@id/item_icon" android:layout_width="32.299988dip" android:layout_height="32.299988dip" android:src="@drawable/icon" android:contentDescription="@string/attribute_content_description_image" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.299988dip" android:layout_marginRight="7.5999756dip" android:layout_weight="1.0">
+        <TextView android:id="@id/item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/unknownName" android:singleLine="true" style="@style/text_primary_style" />
+        <TextView android:gravity="right" android:id="@id/item_description" android:layout_marginTop="@dimen/list_item_text_secondary_marginTop" android:singleLine="true" style="@style/text_secondary_style" />
+    </LinearLayout>
+    <com.kingcore.uilib.QSwitchCheckBox android:id="@id/checkbox" android:layout_width="wrap_content" android:layout_height="fill_parent" switcher:background_on="@color/switcher_on_bg" switcher:background_off="@color/switcher_off_bg" switcher:thumb="@drawable/selector_switcher" />
+</LinearLayout>

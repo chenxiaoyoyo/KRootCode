@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="tag_first" />
+    <item type="id" name="tag_second" />
+    <item type="id" name="tag_third" />
+    <item type="id" name="title_bar" />
+    <item type="id" name="left_component" />
+    <item type="id" name="left_title" />
+    <item type="id" name="center_title" />
+    <item type="id" name="right_component" />
+    <item type="id" name="right_btn" />
+    <item type="id" name="right_iv" />
+    <item type="id" name="right_tv" />
+    <item type="id" name="container" />
+    <item type="id" name="operation_bar" />
+    <item type="id" name="operation_first_btn" />
+    <item type="id" name="operation_second_btn" />
+    <item type="id" name="view_pager" />
+    <item type="id" name="slider_header" />
+    <item type="id" name="tab_text_first" />
+    <item type="id" name="tab_line_first" />
+    <item type="id" name="tab_text_second" />
+    <item type="id" name="tab_line_second" />
+    <item type="id" name="tab_text_third" />
+    <item type="id" name="tab_line_third" />
+    <item type="id" name="list_view" />
+    <item type="id" name="list_title" />
+    <item type="id" name="list_title_name_tv" />
+    <item type="id" name="list_divider_v" />
+    <item type="id" name="loading_progress" />
+    <item type="id" name="permission_icon_iv" />
+    <item type="id" name="permission_name_tv" />
+    <item type="id" name="software_num_tv" />
+    <item type="id" name="allow_btn" />
+    <item type="id" name="prompt_btn" />
+    <item type="id" name="deny_btn" />
+    <item type="id" name="permission_control_description_tv" />
+    <item type="id" name="software_icon_iv" />
+    <item type="id" name="software_name_tv" />
+    <item type="id" name="software_description_tv" />
+    <item type="id" name="expand_icon_iv" />
+    <item type="id" name="cover_v" />
+    <item type="id" name="open_prompt" />
+    <item type="id" name="tool_0" />
+    <item type="id" name="tool_1" />
+    <item type="id" name="tool_2" />
+    <item type="id" name="tool_3" />
+    <item type="id" name="tool_cover" />
+    <item type="id" name="tool_name" />
+    <item type="id" name="item_title">false</item>
+    <item type="id" name="new_tag">false</item>
+    <item type="id" name="item_content">false</item>
+    <item type="id" name="linearLayoutButtons">false</item>
+    <item type="id" name="button_left">false</item>
+    <item type="id" name="button_line">false</item>
+    <item type="id" name="button_right">false</item>
+    <item type="id" name="checkbox_remember">false</item>
+    <item type="id" name="main_view_container">false</item>
+    <item type="id" name="progress_iv">false</item>
+    <item type="id" name="progress_text">false</item>
+    <item type="id" name="listView">false</item>
+    <item type="id" name="button">false</item>
+    <item type="id" name="text_tip">false</item>
+    <item type="id" name="button_ignore">false</item>
+    <item type="id" name="button_allow">false</item>
+    <item type="id" name="button_clean">false</item>
+    <item type="id" name="button_deny">false</item>
+    <item type="id" name="content_group">false</item>
+    <item type="id" name="progressbar">false</item>
+    <item type="id" name="tip">false</item>
+    <item type="id" name="divider_above_mid_button">false</item>
+    <item type="id" name="mid_button">false</item>
+    <item type="id" name="tip_content_desc">false</item>
+    <item type="id" name="button_cancel">false</item>
+    <item type="id" name="button_update">false</item>
+    <item type="id" name="tips_icon">false</item>
+    <item type="id" name="item_app_name">false</item>
+    <item type="id" name="use_detail">false</item>
+    <item type="id" name="use_desc">false</item>
+    <item type="id" name="choice_trigger">false</item>
+    <item type="id" name="label_remember_choice">false</item>
+    <item type="id" name="item_suggestion">false</item>
+    <item type="id" name="blank_bottom">false</item>
+    <item type="id" name="choice_panel">false</item>
+    <item type="id" name="choice_15_minutes">false</item>
+    <item type="id" name="choice_15_minutes_btn">false</item>
+    <item type="id" name="choice_today">false</item>
+    <item type="id" name="choice_today_btn">false</item>
+    <item type="id" name="choice_permanent">false</item>
+    <item type="id" name="choice_permanent_btn">false</item>
+    <item type="id" name="km_content_tips1">false</item>
+    <item type="id" name="km_content_tips2">false</item>
+    <item type="id" name="btn_layout">false</item>
+    <item type="id" name="date_desc">false</item>
+    <item type="id" name="expand_icon">false</item>
+    <item type="id" name="new_icon">false</item>
+    <item type="id" name="item_icon">false</item>
+    <item type="id" name="item_name">false</item>
+    <item type="id" name="item_description">false</item>
+    <item type="id" name="checkbox">false</item>
+    <item type="id" name="top_layout">false</item>
+    <item type="id" name="allow_desc">false</item>
+    <item type="id" name="item_describe">false</item>
+    <item type="id" name="item_btn_bar">false</item>
+    <item type="id" name="item_first_btn">false</item>
+    <item type="id" name="item_second_btn">false</item>
+    <item type="id" name="item_third_btn">false</item>
+    <item type="id" name="sdesc">false</item>
+    <item type="id" name="item_title_desc">false</item>
+    <item type="id" name="item_line">false</item>
+    <item type="id" name="item_checkbox">false</item>
+    <item type="id" name="unremovable_tag">false</item>
+    <item type="id" name="left_textView">false</item>
+    <item type="id" name="image_view">false</item>
+    <item type="id" name="left_textView_descr">false</item>
+    <item type="id" name="right_textView">false</item>
+    <item type="id" name="item_text">false</item>
+    <item type="id" name="question">false</item>
+    <item type="id" name="expand_panel">false</item>
+    <item type="id" name="answer">false</item>
+    <item type="id" name="radio_button">false</item>
+    <item type="id" name="notify_icon">false</item>
+    <item type="id" name="notify_title">false</item>
+    <item type="id" name="notify_msg">false</item>
+    <item type="id" name="notify_install">false</item>
+    <item type="id" name="notify_item">false</item>
+    <item type="id" name="notify_progressbar">false</item>
+    <item type="id" name="top_panel">false</item>
+    <item type="id" name="top_ink_view_layer">false</item>
+    <item type="id" name="main_view_circle">false</item>
+    <item type="id" name="tool_box_panel">false</item>
+    <item type="id" name="block_0">false</item>
+    <item type="id" name="block_1">false</item>
+    <item type="id" name="checking_text">false</item>
+    <item type="id" name="logo">false</item>
+    <item type="id" name="version">false</item>
+    <item type="id" name="app_name">false</item>
+    <item type="id" name="whole_container">false</item>
+    <item type="id" name="circle_container">false</item>
+    <item type="id" name="bottom_container">false</item>
+    <item type="id" name="icon">false</item>
+    <item type="id" name="msg">false</item>
+    <item type="id" name="text_btn">false</item>
+    <item type="id" name="text_one">false</item>
+    <item type="id" name="text_two">false</item>
+    <item type="id" name="TableLayout">false</item>
+    <item type="id" name="empty_tip">false</item>
+    <item type="id" name="empty_cloud">false</item>
+    <item type="id" name="progressbarminverse">false</item>
+    <item type="id" name="item_tips1">false</item>
+    <item type="id" name="item_tips2">false</item>
+    <item type="id" name="item_tips3">false</item>
+</resources>
